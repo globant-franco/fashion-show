@@ -1,0 +1,32 @@
+.selectGarmentContainer {
+  background: rgba(70, 47, 153, 0.6);
+  box-shadow: -2px 2px 6px #A79FE1;
+  border-radius: 10px;
+  height: 14vh !important;
+  width: 20vw !important;
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 1vw;
+}
+
+.optionSelected {
+  font-family: 'Prosto One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.activeGarment {
+  opacity: 1 !important
+}
+
+.garmentCarousel {
+  width: 80%;
+  height: 16vh;
+}
